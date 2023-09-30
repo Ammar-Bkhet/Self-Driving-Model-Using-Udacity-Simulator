@@ -21,15 +21,10 @@ We will use Python as the primary programming language and PyTorch as the Deep L
 
 2. Install PyTorch environment (latest version the best) in your local machine.
 
-3. Log in Google Colab (if you do not have GPU and would love to utilize the power of GPU, please try this and be sure to enable GPU as accelerator)
 
 
-## Usage
 
-```
-git clone https://github.com/milsun/AI-Driver-CNN-DeepLearning-PyTorch.git
-python3 drive.py model/model.pth  
-```
+
 
 ## Dataset
 
@@ -63,14 +58,3 @@ Below fig shows architecture used in the project.
 ![Network](https://raw.githubusercontent.com/milsun/AI-Driver-CNN-DeepLearning-PyTorch/master/images/training.png)
 
 
-## Results
-
-### Training loss vs Validation loss
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/milsun/AI-Driver-CNN-DeepLearning-PyTorch/master/images/loss.png" width="50%">
-  <p>Training loss vs Validation loss (generalized)</p>
-</div>
-
-## Demo
-[![Watch the video](http://i3.ytimg.com/vi/7VmIJRY-JtY/maxresdefault.jpg)](https://www.youtube.com/watch?v=7VmIJRY-JtY) 
