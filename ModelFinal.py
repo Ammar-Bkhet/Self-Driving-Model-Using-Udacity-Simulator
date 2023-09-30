@@ -158,7 +158,7 @@ model =DriverNet().to(device)
 
 #Model parameters
 lr = 0.0005
-epochs = 30
+epochs = 50
 optimizer = optim.Adam(model.parameters(), lr=lr)
 criterion = nn.MSELoss()
 
